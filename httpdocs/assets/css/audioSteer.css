@@ -1,0 +1,40 @@
+h1 {
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+.rangeslider, input[type='range'] {
+    max-height: 600px;
+    margin-left: 115px;
+}
+
+.rangeslider__handle {
+    border-radius: 22px;
+    min-height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.rangeslider__handle:after {
+    background: 0;
+}
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    margin: 0 0 2em 0;
+}
+
+.row > * {
+    padding: 0 0 0 0 !important;
+}
+
+.column {
+    flex: 50%;
+}
+
+.channel-btn {
+    background-color: #c2c8d6 !important;
+}
