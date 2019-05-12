@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Home | AudioSteer</title>
+		<title>Professional Mode | AudioSteer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
@@ -31,72 +31,88 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="#hello" class="active">Home</a></li>
+							<li><a href="./index.html" class="active">Home</a></li>
 							<li><a href="./usermode.html#equalizer">User Mode</a></li>
-							<li><a href="./professionalmode.html#graph">Professional Mode</a></li>
+							<li><a href="#graph">Professional Mode</a></li>
 							<li><a href="./engineeringmode.html#fileconfig">Engineering Mode</a></li>
-							<li><a href="#get-started">Get Started</a></li>
+							<li><a href="./index.html#get-started">Get Started</a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
+					<!-- Chart -->
+						<section id="graph" class="main special">
+							<header class="major">
+								<h2>Equalizer Graph</h2>
+								<p>Setting up Equalizer was never this easy. Imagine Tuning<br />
+								your device for perfect Equalizer Settings as easy as touching.</p>
+							</header>
 
-						<!-- Home -->
-							<section id="hello" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-												<h1>Currently Playing:</h1>
-												<h2><a href="" class="icon fa-play-circle"> </a>Music at our Hearts!</h2>
-										</header>
-										<p>Music is something that touches the soul. Music is something that touches us so deep in our hearts.
-											Music is with us when our words fade away. When we can’t seem to explain joy or sadness,
-											when our emotions block us off and when we have something to celebrate. As Oscar Wilde said, it’s the art that’s closest to tears and memories.</p>
-										<ul class="actions">
-											<li><a href="#about" class="button">Learn More</a></li>
-										</ul>
-									</div>
-									<span class="image"><img src="./images/music.png" alt="" /></span>
-								</div>
-							</section>
-
-						<!-- Get Started -->
-							<section id="get-started" class="main special">
-								<header class="major">
-									<h2>Get Started</h2>
-									<p>Would want to contribute to the App Development? Join Us Now!<br />
-									Check our App Statistics and GitHub Repo for Pull Requests.</p>
-								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon fa-music"></span>
-										<strong>5M+</strong> Songs
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open-o"></span>
-										<strong>>800K</strong> Albums
-									</li>
-									<li class="style3">
-										<span class="icon fa-play"></span>
-										<strong>2M+</strong> Plays
-									</li>
-									<li class="style4">
-										<span class="icon fa-cloud-download"></span>
-										<strong>>40K</strong> Downloads
-									</li>
-									<li class="style5">
-										<span class="icon fa-users"></span>
-										<strong>>500K</strong> Users
-									</li>
+							<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+							<br/>
+							
+							<footer class="major">
+								<ul class="actions special">
+									<li><a class="button channel-btn">Save Graph Config</a></li>
 								</ul>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="mailto:pan@revoticengineering.com" class="button primary">Get Started</a></li>
-										<li><a href="https://github.com/REVOtic/AudioSteer" target="_blank" class="button">GitHub Repo</a></li>
-									</ul>
-								</footer>
-							</section>
+							</footer>
+						</section>
+
+					<!-- Channel -->
+						<section id="channel" class="main special">
+							<header class="major">
+								<h2>Channel Setup</h2>
+								<p>Setting up Channel was never this easy. Like changing<br />
+								Gain, Delay & Polarity with smoothness as of Feather Touch.</p>
+							</header>
+							<div class="container" style="text-align: center;">
+									<div class="row">
+										<div class="col-sm-4">
+											<span>Gain</span>
+										</div>
+										<div class="col-sm-4">
+											<span>Delay</span>
+										</div>
+										<div class="col-sm-4">
+											<span>Polarity</span>
+										</div>
+									</div>
+								</div>
+								<div class="container" style="text-align: center;">
+									<div class="row">
+										<div class="col-sm-4">
+											<input id="slider-CH1" type="range" min="-10" max="10" step="1" value="0" data-orientation="vertical">
+											<br/>
+											<input id="input-CH1" class="channel" type="number" min="-10" max="10" value="0"></input>
+											<span>dB</span>
+										</div>
+										<div class="col-sm-4">
+											<input id="slider-CH2" type="range" min="-15" max="15" step="1" value="0" data-orientation="vertical">
+											<br/>
+											<input id="input-CH2" class="channel" type="number" min="-15" max="15" value="0"></input>
+											<span>dB</span>
+										</div>
+										<div class="col-sm-4">
+											<div class="check">
+												<input type="checkbox" class="check-polarity" id="positiveCheck">
+												<label class="check-label" for="positiveCheck">Positive</label>
+											</div>
+											<div class="check">
+												<input type="checkbox" class="check-polarity" id="negativeCheck">
+												<label class="check-label" for="negativeCheck">Negative</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<br/>
+							
+							<footer class="major">
+								<ul class="actions special">
+									<li><a class="button channel-btn">Save Channel Config</a></li>
+								</ul>
+							</footer>
+						</section>
 
 					</div>
 

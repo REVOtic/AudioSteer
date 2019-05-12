@@ -1,0 +1,302 @@
+[
+    {
+        "frequency": 20,
+        "gain": 0
+    },
+    {
+        "frequency": 21.95687534,
+        "gain": 0
+    },
+    {
+        "frequency": 24.10521874,
+        "gain": 0
+    },
+    {
+        "frequency": 26.46376414,
+        "gain": 0
+    },
+    {
+        "frequency": 29.05307852,
+        "gain": 0
+    },
+    {
+        "frequency": 31.89574117,
+        "gain": 0
+    },
+    {
+        "frequency": 35.01654063,
+        "gain": 0
+    },
+    {
+        "frequency": 38.44269088,
+        "gain": 0
+    },
+    {
+        "frequency": 42.20406857,
+        "gain": 0
+    },
+    {
+        "frequency": 46.33347363,
+        "gain": 0
+    },
+    {
+        "frequency": 50.86691523,
+        "gain": 0
+    },
+    {
+        "frequency": 55.84392583,
+        "gain": 0
+    },
+    {
+        "frequency": 61.3079059,
+        "gain": 0
+    },
+    {
+        "frequency": 67.30650237,
+        "gain": 0
+    },
+    {
+        "frequency": 73.8920241,
+        "gain": 0
+    },
+    {
+        "frequency": 81.1218981,
+        "gain": 0
+    },
+    {
+        "frequency": 89.0591702,
+        "gain": 0
+    },
+    {
+        "frequency": 97.7730549,
+        "gain": 0
+    },
+    {
+        "frequency": 107.3395389,
+        "gain": 0
+    },
+    {
+        "frequency": 117.8420438,
+        "gain": 0
+    },
+    {
+        "frequency": 129.3721532,
+        "gain": 0
+    },
+    {
+        "frequency": 142.0304121,
+        "gain": 0
+    },
+    {
+        "frequency": 155.9272026,
+        "gain": 0
+    },
+    {
+        "frequency": 171.1837075,
+        "gain": 0
+    },
+    {
+        "frequency": 187.9329663,
+        "gain": 0
+    },
+    {
+        "frequency": 206.3210357,
+        "gain": 0
+    },
+    {
+        "frequency": 226.508263,
+        "gain": 0
+    },
+    {
+        "frequency": 248.6706848,
+        "gain": 0
+    },
+    {
+        "frequency": 273.0015613,
+        "gain": 0
+    },
+    {
+        "frequency": 299.7130625,
+        "gain": 0
+    },
+    {
+        "frequency": 329.0381176,
+        "gain": 0
+    },
+    {
+        "frequency": 361.2324465,
+        "gain": 0
+    },
+    {
+        "frequency": 396.5767898,
+        "gain": 0
+    },
+    {
+        "frequency": 435.3793569,
+        "gain": 0
+    },
+    {
+        "frequency": 477.9785132,
+        "gain": 0
+    },
+    {
+        "frequency": 524.7457316,
+        "gain": 0
+    },
+    {
+        "frequency": 576.0888307,
+        "gain": 0
+    },
+    {
+        "frequency": 632.455532,
+        "gain": 0
+    },
+    {
+        "frequency": 694.3373638,
+        "gain": 0
+    },
+    {
+        "frequency": 762.2739471,
+        "gain": 0
+    },
+    {
+        "frequency": 836.8577016,
+        "gain": 0
+    },
+    {
+        "frequency": 918.7390116,
+        "gain": 0
+    },
+    {
+        "frequency": 1008.631897,
+        "gain": 0
+    },
+    {
+        "frequency": 1107.320242,
+        "gain": 0
+    },
+    {
+        "frequency": 1215.664626,
+        "gain": 0
+    },
+    {
+        "frequency": 1334.609832,
+        "gain": 0
+    },
+    {
+        "frequency": 1465.193086,
+        "gain": 0
+    },
+    {
+        "frequency": 1608.553097,
+        "gain": 0
+    },
+    {
+        "frequency": 1765.939991,
+        "gain": 0
+    },
+    {
+        "frequency": 1938.726212,
+        "gain": 0
+    },
+    {
+        "frequency": 2128.418488,
+        "gain": 0
+    },
+    {
+        "frequency": 2336.670971,
+        "gain": 0
+    },
+    {
+        "frequency": 2565.299661,
+        "gain": 0
+    },
+    {
+        "frequency": 2816.298244,
+        "gain": 0
+    },
+    {
+        "frequency": 3091.855473,
+        "gain": 0
+    },
+    {
+        "frequency": 3394.37426,
+        "gain": 0
+    },
+    {
+        "frequency": 3726.492624,
+        "gain": 0
+    },
+    {
+        "frequency": 4091.1067,
+        "gain": 0
+    },
+    {
+        "frequency": 4491.395991,
+        "gain": 0
+    },
+    {
+        "frequency": 4930.851094,
+        "gain": 0
+    },
+    {
+        "frequency": 5413.30414,
+        "gain": 0
+    },
+    {
+        "frequency": 5942.962209,
+        "gain": 0
+    },
+    {
+        "frequency": 6524.444019,
+        "gain": 0
+    },
+    {
+        "frequency": 7162.8202,
+        "gain": 0
+    },
+    {
+        "frequency": 7863.657511,
+        "gain": 0
+    },
+    {
+        "frequency": 8633.067385,
+        "gain": 0
+    },
+    {
+        "frequency": 9477.759219,
+        "gain": 0
+    },
+    {
+        "frequency": 10405.09888,
+        "gain": 0
+    },
+    {
+        "frequency": 11423.17296,
+        "gain": 0
+    },
+    {
+        "frequency": 12540.85923,
+        "gain": 0
+    },
+    {
+        "frequency": 13767.90414,
+        "gain": 0
+    },
+    {
+        "frequency": 15115.00774,
+        "gain": 0
+    },
+    {
+        "frequency": 16593.91704,
+        "gain": 0
+    },
+    {
+        "frequency": 18217.5284,
+        "gain": 0
+    },
+    {
+        "frequency": 20000,
+        "gain": 0
+    }
+]
