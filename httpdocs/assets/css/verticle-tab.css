@@ -1,0 +1,68 @@
+.tab-container-base{
+  position: relative;
+  height: auto;
+  overflow: auto;
+}
+
+.config-button{
+  margin-top: 50px;
+}
+
+.section-head {
+  text-align: left;
+}
+
+.padding-bottom-50{
+  padding-bottom: 50px;
+}
+
+.section-head.with-line {
+  text-align: left;
+  border-top: 1px solid #999;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  width: 30%;
+  min-height: 422px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 35px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  line-height: 3px;
+  margin-bottom: 10px;
+  border-radius: 4px 0 0 4px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 40px 30px;
+  border: 1px solid #ccc;
+  width: 70%;
+  height: auto;
+}

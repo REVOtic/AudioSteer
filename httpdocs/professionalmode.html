@@ -1,164 +1,194 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Professional Mode | AudioSteer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-		<link rel="icon" type="image/png" href="./assets/icons/favicon-32x32.png" sizes="32x32" />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" />
-		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="./assets/css/bootstrap-theme.min.css" />
-		<link rel="stylesheet" href="./assets/css/rangeslider.min.css"/>
-		<link rel="stylesheet" href="./assets/css/main.css" />
-		<link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="./assets/css/audioSteer.css" />
-	</head>
+<head>
+	<title>Professional Mode | AudioSteer</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-	<body class="is-preload">
+	<link rel="icon" type="image/png" href="./assets/icons/favicon-32x32.png" sizes="32x32" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./assets/css/bootstrap-theme.min.css" />
+	<link rel="stylesheet" href="./assets/css/rangeslider.min.css" />
+	<link rel="stylesheet" href="./assets/css/main.css" />
+	<link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="./assets/css/audioSteer.css" />
+	<link rel="stylesheet" href="./assets/css/verticle-tab.css" />
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<body class="is-preload">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.svg" alt="" /></span>
-						<h1>AudioSteer</h1>
-						<p>Very Simple & Light Weight App to Control your Music Player <br />
-						built by <a href="https://twitter.com/@REVOtic" target="_blank">@REVOtic</a> for PowerPan.</p>
-					</header>
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="./index.html" class="active">Home</a></li>
-							<li><a href="./usermode.html#equalizer">User Mode</a></li>
-							<li><a href="#graph">Professional Mode</a></li>
-							<li><a href="./engineeringmode.html#fileconfig">Engineering Mode</a></li>
-							<li><a href="./index.html#get-started">Get Started</a></li>
-						</ul>
-					</nav>
+		<!-- Header -->
+		<header id="header" class="alt">
+			<span class="logo"><img src="images/logo.svg" alt="" /></span>
+			<h1>AudioSteer</h1>
+			<p>Very Simple & Light Weight App to Control your Music Player <br />
+				built by <a href="https://twitter.com/@REVOtic" target="_blank">@REVOtic</a> for PowerPan.</p>
+		</header>
 
-				<!-- Main -->
-					<div id="main">
-					<!-- Chart -->
-						<section id="graph" class="main special">
-							<header class="major">
-								<h2>Equalizer Graph</h2>
-								<p>Setting up Equalizer was never this easy. Imagine Tuning<br />
-								your device for perfect Equalizer Settings as easy as touching.</p>
-							</header>
+		<!-- Nav -->
+		<nav id="nav">
+			<ul>
+				<li><a href="./index.html" class="active">Home</a></li>
+				<li><a href="./usermode.html#equalizer">User Mode</a></li>
+				<li><a href="#graph">Professional Mode</a></li>
+				<li><a href="./engineeringmode.html#fileconfig">Engineering Mode</a></li>
+				<li><a href="./index.html#get-started">Get Started</a></li>
+			</ul>
+		</nav>
 
-							<div id="chartContainer" style="height: 370px; width: 100%;"></div>
-							<br/>
-							
-							<footer class="major">
-								<ul class="actions special">
-									<li><a class="button channel-btn">Save Graph Config</a></li>
-								</ul>
-							</footer>
-						</section>
+		<!-- Main -->
+		<div id="main">
 
-					<!-- Channel -->
-						<section id="channel" class="main special">
-							<header class="major">
-								<h2>Channel Setup</h2>
-								<p>Setting up Channel was never this easy. Like changing<br />
-								Gain, Delay & Polarity with smoothness as of Feather Touch.</p>
-							</header>
-							<div class="container" style="text-align: center;">
-									<div class="row">
-										<div class="col-sm-4">
-											<span>Gain</span>
-										</div>
-										<div class="col-sm-4">
-											<span>Delay</span>
-										</div>
-										<div class="col-sm-4">
-											<span>Polarity</span>
-										</div>
+			<!-- Chart -->
+			<section id="graph" class="main special">
+
+				<div class="tab-container-base">
+					<div class="tab">
+						<button class="tablinks" onclick="openCity(event, 'Tab1')" id="defaultOpen">Tab1</button>
+						<button class="tablinks" onclick="openCity(event, 'Tab2')">Tab2</button>
+						<button class="tablinks" onclick="openCity(event, 'Tab3')">Tab3</button>
+						<button class="tablinks" onclick="openCity(event, 'Tab4')">Tab4</button>
+						<button class="tablinks" onclick="openCity(event, 'Tab5')">Tab5</button>
+						<button class="tablinks" onclick="openCity(event, 'Tab6')">Tab6</button>
+					</div>
+
+					<div id="Tab1" class="tabcontent">
+						<div class="section-head">
+							<h2>Equalizer Graph</h2>
+							<p>Setting up Equalizer was never this easy. Imagine Tuning your device for perfect Equalizer Settings as easy as touching.</p>
+						</div>
+
+						<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+
+						<div class="section-head with-line">
+							<h2>Channel Setup</h2>
+							<p>Setting up Channel was never this easy. Like changing Gain, Delay & Polarity with smoothness as of Feather Touch.</p>
+						</div>
+
+						<div class="container" style="text-align: center;">
+							<div class="row">
+								<div class="col-sm-4">
+									<span>Gain</span>
+								</div>
+								<div class="col-sm-4">
+									<span>Delay</span>
+								</div>
+								<div class="col-sm-4">
+									<span>Polarity</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="container padding-bottom-50" style="text-align: center;">
+							<div class="row">
+								<div class="col-sm-4">
+									<input id="slider-CH1" type="range" min="-10" max="10" step="1" value="0" data-orientation="vertical">
+									<br />
+									<input id="input-CH1" class="channel" type="number" min="-10" max="10" value="0"></input>
+									<span>dB</span>
+								</div>
+								<div class="col-sm-4">
+									<input id="slider-CH2" type="range" min="-15" max="15" step="1" value="0" data-orientation="vertical">
+									<br />
+									<input id="input-CH2" class="channel" type="number" min="-15" max="15" value="0"></input>
+									<span>dB</span>
+								</div>
+								<div class="col-sm-4">
+									<div class="check">
+										<input type="checkbox" class="check-polarity" id="positiveCheck">
+										<label class="check-label" for="positiveCheck">Positive</label>
+									</div>
+									<div class="check">
+										<input type="checkbox" class="check-polarity" id="negativeCheck">
+										<label class="check-label" for="negativeCheck">Negative</label>
 									</div>
 								</div>
-								<div class="container" style="text-align: center;">
-									<div class="row">
-										<div class="col-sm-4">
-											<input id="slider-CH1" type="range" min="-10" max="10" step="1" value="0" data-orientation="vertical">
-											<br/>
-											<input id="input-CH1" class="channel" type="number" min="-10" max="10" value="0"></input>
-											<span>dB</span>
-										</div>
-										<div class="col-sm-4">
-											<input id="slider-CH2" type="range" min="-15" max="15" step="1" value="0" data-orientation="vertical">
-											<br/>
-											<input id="input-CH2" class="channel" type="number" min="-15" max="15" value="0"></input>
-											<span>dB</span>
-										</div>
-										<div class="col-sm-4">
-											<div class="check">
-												<input type="checkbox" class="check-polarity" id="positiveCheck">
-												<label class="check-label" for="positiveCheck">Positive</label>
-											</div>
-											<div class="check">
-												<input type="checkbox" class="check-polarity" id="negativeCheck">
-												<label class="check-label" for="negativeCheck">Negative</label>
-											</div>
-										</div>
-									</div>
-								</div>
-								<br/>
-							
-							<footer class="major">
-								<ul class="actions special">
-									<li><a class="button channel-btn">Save Channel Config</a></li>
-								</ul>
-							</footer>
-						</section>
+							</div>
+						</div>
+					</div>
+
+					<div id="Tab2" class="tabcontent">
 
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section id="about">
-							<h2>About Us</h2>
-							<p>AudioSteer WebApp is built using HTML5, CSS3 and Bootstrap UI. Rendered using the Go Programming Language, it is comparitively very fast and a light weight application suiatble for the music player device.</p>
-							<ul class="actions">
-								<li><a href="https://github.com/REVOtic/AudioSteer" target="_blank" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Contact Us</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Pan Plaza Road &bull; Futian, SZ 12345 &bull; China</dd>
-								<dt>Phone</dt>
-								<dd>(86) 000-0000 x 0000</dd>
-								<dt>Email</dt>
-								<dd><a href="mailto:pan@revoticengineering.com">pan@revoticengineering.com</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="https://github.com/REVOtic/AudioSteer" target="_blank" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
-								<li><a href="https://github.com/REVOtic/AudioSteer" target="_blank" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="https://github.com/REVOtic/AudioSteer" target="_blank" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="https://github.com/REVOtic/AudioSteer" target="_blank" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy; 2019 REVOtic Engineering.</p>
-					</footer>
+					<div id="Tab3" class="tabcontent">
 
-			</div>
+					</div>
 
-		<!-- Scripts -->
-			<script src="./assets/js/jquery.min.js"></script>
-			<script src="./assets/js/jquery.scrollex.min.js"></script>
-			<script src="./assets/js/jquery.scrolly.min.js"></script>
-			<script src="./assets/js/bootstrap.min.js"></script>
-			<script src="./assets/js/browser.min.js"></script>
-			<script src="./assets/js/breakpoints.min.js"></script>
-			<script src="./assets/js/rangeslider.min.js"></script>
-			<script src="./assets/js/jquery.canvasjs.min.js"></script>
-			<script src="./assets/js/util.js"></script>
-			<script src="./assets/js/main.js"></script>
-			<script src="./assets/js/saveConfig.js"></script>
+					<div id="Tab4" class="tabcontent">
 
-	</body>
+					</div>
+
+					<div id="Tab5" class="tabcontent">
+
+					</div>
+
+					<div id="Tab6" class="tabcontent">
+
+					</div>
+				</div>
+
+				<div class="config-button">
+					<a class="button channel-btn">Save Graph Config</a>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section id="about">
+				<h2>About Us</h2>
+				<p>AudioSteer WebApp is built using HTML5, CSS3 and Bootstrap UI. Rendered using the Go Programming Language, it
+					is comparitively very fast and a light weight application suiatble for the music player device.</p>
+				<ul class="actions">
+					<li><a href="https://github.com/REVOtic/AudioSteer" target="_blank" class="button">Learn More</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>Contact Us</h2>
+				<dl class="alt">
+					<dt>Address</dt>
+					<dd>1234 Pan Plaza Road &bull; Futian, SZ 12345 &bull; China</dd>
+					<dt>Phone</dt>
+					<dd>(86) 000-0000 x 0000</dd>
+					<dt>Email</dt>
+					<dd><a href="mailto:pan@revoticengineering.com">pan@revoticengineering.com</a></dd>
+				</dl>
+				<ul class="icons">
+					<li><a href="https://github.com/REVOtic/AudioSteer" target="_blank" class="icon fa-facebook alt"><span
+								class="label">Facebook</span></a></li>
+					<li><a href="https://github.com/REVOtic/AudioSteer" target="_blank" class="icon fa-twitter alt"><span
+								class="label">Twitter</span></a></li>
+					<li><a href="https://github.com/REVOtic/AudioSteer" target="_blank" class="icon fa-instagram alt"><span
+								class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/REVOtic/AudioSteer" target="_blank" class="icon fa-github alt"><span
+								class="label">GitHub</span></a></li>
+				</ul>
+			</section>
+			<p class="copyright">&copy; 2019 REVOtic Engineering.</p>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/jquery.scrollex.min.js"></script>
+	<script src="./assets/js/jquery.scrolly.min.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/browser.min.js"></script>
+	<script src="./assets/js/breakpoints.min.js"></script>
+	<script src="./assets/js/rangeslider.min.js"></script>
+	<script src="./assets/js/jquery.canvasjs.min.js"></script>
+	<script src="./assets/js/util.js"></script>
+	<script src="./assets/js/main.js"></script>
+	<script src="./assets/js/saveConfig.js"></script>
+
+</body>
+
 </html>
